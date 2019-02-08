@@ -1,0 +1,7 @@
+# Overall title for pages.
+title: "Workshop Title"
+
+#Metadata
+# Here you can add metadata to describe your lesson so that people and search engines can understand what it's about. Please try to use fields from the Schema.org CreativeWork type - https://schema.org/CreativeWork
+description:    "This is the template description. Keep me brief (2-3 sentences)"
+keywords:       GitHub, Forking, Collaborative                  # see: https://schema.org/keywords

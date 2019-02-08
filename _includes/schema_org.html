@@ -1,0 +1,32 @@
+    <!-- Schema.org annotations in JSON-LD for a Event type.
+         Variables should be declared in the .md file
+         For full list of available attributes see https://schema.org/Event -->
+    <script type="application/ld+json">
+    {
+       "@context": "http://schema.org/",
+       "@type": "Event",
+       "genre": "courseInstance",
+       "name": "{{site.data.workshop.title}}",
+       "description": "{{site.data.workshop.description}}",
+       "keywords": "{{site.data.workshop.keywords}}",
+       "startDate": "{{page.startdate}}",
+       "endDate": "{{page.enddate}}",
+       "location": [{
+           "@type": "Place",
+           "address": {
+               "@type": "PostalAddress",
+               "streetAddress": "{{page.address}}"
+           },
+           "geo": {
+               "@type": "GeoCoordinates",
+               "latitude": "{{page.latlng}}",
+               "longitude": "{{page.latlng}}"
+           }
+       }],
+       "contact": [{
+           "@type": "Person",
+           "email": "{{page.email}}"
+       }
+       ],
+    }
+    </script>
